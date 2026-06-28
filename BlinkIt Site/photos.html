@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Photos</title>
+  <!-- Google Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link
+    href="https://fonts.googleapis.com/css2?family=Lora:wght@400..700&family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap"
+    rel="stylesheet" />
+  <!-- CSS Rules -->
+  <link rel="stylesheet" href="css/bootstrap.min.css" />
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.13.1/font/bootstrap-icons.min.css" />
+  <link rel="stylesheet" href="css/styles.css" />
+</head>
+
+<body>
+  <!-- Navigation -->
+  <nav class="navbar navbar-expand-lg fixed-top">
+    <div class="container">
+      <a class="navbar-brand" href="index.html"><img src="img/Homepage/logo.svg" class="logo" /></a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+        aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav ms-auto">
+          <li class="nav-item">
+            <a class="nav-link active" area-current="page" href="photos.html">Photos</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="videos.html">Videos</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="about.html">About</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <!-- Hero Section -->
+
+  <section id="heroPhotos" class="d-flex justify-content-center d-flex align-items-center text-center">
+    <div class="container">
+      <h1 class="fw-semibold text-uppercase text-white">Photos</h1>
+    </div>
+  </section>
+
+<!-- About Photos -->
+  <div class="container mt-5">
+    <div class="row flex-lg-row-reverse align-items-center">
+      <div class="col-12 col-lg-6">
+        <img src="img/photos/about.photos.jpg" class="img-fluid shadow-sm p-2 bg-secondary-subtle rounded rounded-4" alt="About Photos" />
+      </div>
+      <div class="col-12 col-lg-6 mt-4 mt-lg-0">
+        <h2 class="fs-3 fw-semibold">About Photos</h2>
+        <p>
+       BlinkIt brings you a curated collection of stunning visuals designed to inspire and elevate your projects. From breathtaking landscapes to captivating portraits and mesmerizing astrophotography, every image is handpicked to match your creative vision. We make finding the perfect photo effortless, so you can focus on creating impact without the hassle of endless searching.
+          <br /><br />
+         Our curated galleries prioritize quality, relevance, and style, ensuring that every photo tells a story and adds value to your work. Whether you’re building a brand, crafting a campaign, or simply seeking inspiration, BlinkIt delivers the right image at the right time—because your ideas deserve nothing less than the best.
+        </p>
+        <a href="about.html" class="btn btn-outline-dark btn-sm">Learn More</a>
+      </div>
+    </div>
+  </div>
+
+<!-- Additional sites -->
+
+<div class="container mt-5">
+  <div class="row">
+    <h2 class="fs-3 fw-semibold">
+      <i class="bi bi-camera me-2 h3"></i>Photography Styles
+    </h2>
+    <!-- Div column 1 -->
+    <div class="col-12 col-md-6 col-xl-3 mb-4 mb-4-xl-0">
+      <div id="portraitsSite" class="d-flex justify-content-center align-items-center text-center">
+        <div><h3 class="fs-5 fw-semibold text-uppercase text-white">Portraits</h3><a href = "portraits.html" class = "btn glass"><i class="bi bi-box-arrow-up-right"></i></a></div>
+      </div>
+    </div>
+     <!-- Div column 2 -->
+      <div class="col-12 col-md-6 col-xl-3 mb-4 mb-4-xl-0">
+      <div id="landscapeSite" class="d-flex justify-content-center align-items-center text-center">
+        <div><h3 class="fs-5 fw-semibold text-uppercase text-white">Landscapes</h3><a href = "landscape.html" class = "btn glass"><i class="bi bi-box-arrow-up-right"></i></a></div>
+      </div>
+    </div>
+     <!-- Div column 3 -->
+    <div class="col-12 col-md-6 col-xl-3 mb-4 mb-4-xl-0">
+      <div id="sportsSite" class="d-flex justify-content-center align-items-center text-center">
+        <div><h3 class="fs-5 fw-semibold text-uppercase text-white">Sports</h3><a href = "sports.html" class = "btn glass"><i class="bi bi-box-arrow-up-right"></i></a></div>
+      </div>
+    </div>
+     <!-- Div column 4 -->
+    <div class="col-12 col-md-6 col-xl-3">
+      <div id="macroSite" class="d-flex justify-content-center align-items-center text-center">
+        <div><h3 class="fs-5 fw-semibold text-uppercase text-white">Macro</h3><a href = "macro.html" class = "btn glass"><i class="bi bi-box-arrow-up-right"></i></a></div>
+      </div>
+    </div>
+  </div>
+</div>
+
+  <!-- Footer -->
+
+  <footer class="mt-5 p-2">
+    <ul class="nav justify-content-center text-center flex-column flex-sm-row">
+      <li class="nav-item">
+        <a class="nav-link" href="index.html">Home</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="photos.html">Photos</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="videos.html">Videos</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="about.html">About</a>
+      </li>
+    </ul>
+  </footer>
+
+  <!-- JS Files -->
+  <script src="js/bootstrap.min.js"></script>
+</body>
+
+</html>
